@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.UnityDemo.CSharp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.UnityDemo.CSharp.Editor", "UnityVS.UnityDemo.CSharp.Editor.csproj", "{15E96C7A-E53F-84BC-9B2C-F78D54B374E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-vs", "Assembly-CSharp-vs.csproj", "{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{15E96C7A-E53F-84BC-9B2C-F78D54B374E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E96C7A-E53F-84BC-9B2C-F78D54B374E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E96C7A-E53F-84BC-9B2C-F78D54B374E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

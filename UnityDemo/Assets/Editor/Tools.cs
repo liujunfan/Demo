@@ -45,7 +45,8 @@ public class Tools
 	/// <summary>
 	/// 是否激活AddChild
 	/// </summary>
-	[MenuItem ("Tools/AddChild", true)]  
+	[MenuItem ("Tools/AddChild", true)]
+    [MenuItem("Tools/GetGameObjectName", true)]
 	static bool IsSelect()
 	{
 		return Selection.activeTransform;
@@ -63,4 +64,12 @@ public class Tools
 			newChild.transform.parent = transform;  
 		}  
 	} 
+
+    
+    [MenuItem("Tools/GetGameObjectName")]
+    static void GetGameObjectPath()
+    {
+        string pathName = Utility.GetPathName(Selection.activeGameObject);
+        Debug.Log(pathName);
+    }
 }
