@@ -184,7 +184,10 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\Main\GameMain.cs" />
+     <Compile Include="Assets\Scripts\Serialize\GameDataManager.cs" />
+     <Compile Include="Assets\Scripts\Serialize\MemorySerialize.cs" />
      <Compile Include="Assets\Scripts\Utility\Utility.cs" />
+     <Compile Include="Assets\ZTest\TestMemorySerialize.cs" />
      <Compile Include="Assets\ZTest\TestParticlesScale.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.9.0.txt" />

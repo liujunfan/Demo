@@ -72,4 +72,17 @@ public class Tools
         string pathName = Utility.GetPathName(Selection.activeGameObject);
         Debug.Log(pathName);
     }
+    [MenuItem("Tools/ExportSceneToTXT")]
+    static void ExportSceneToTXT()
+    {
+		foreach (EditorBuildSettingsScene Scene in EditorBuildSettings.scenes)
+        {
+            if (Scene.enabled) 
+			{
+				string name = Scene.path;
+				Debug.Log(name);
+				EditorApplication.OpenScene(name);
+            }
+        }
+    }
 }
